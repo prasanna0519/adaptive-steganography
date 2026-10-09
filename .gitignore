@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and cache files
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Temporary outputs
+*.log
+temp/
+tmp/
